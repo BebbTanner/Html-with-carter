@@ -1,3 +1,11 @@
+.CP{
+  display: block;
+  color: coral;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -8,6 +16,7 @@ ul {
   
   li {
     float: left;
+    display: inline;
   }
   
   li a {
@@ -25,4 +34,20 @@ ul {
   body{
     margin: 0;
     padding: 0;
+  }
+
+  .div1{
+    background-color: aqua;
+  }
+
+  .div2{
+    background-color: blueviolet;
+  }
+
+  .div3{
+    background-color: yellow;
+  }
+
+  .div4{
+    background-color: tomato;
   }
