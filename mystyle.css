@@ -6,8 +6,16 @@
   text-decoration: none;
 }
 
+.nav-bar{
+  opacity: .2;
+}
+
+/*
+For the hover animation for it to low taper fade in we have to use keyframes on gah no cap
+*/
 .nav-bar:hover{
-  background-color: white;
+  opacity: 1;
+  animation: ease-in 50s;
 }
 
 ul {
@@ -24,17 +32,12 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
-  li a:hover {
-    background-color: white;
-    color: black;
-  }
-
   body{
     margin: 0;
     padding: 0;
