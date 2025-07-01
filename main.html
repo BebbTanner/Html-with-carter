@@ -29,11 +29,7 @@ Bootstrap has a prebuilt navigation bar built into it.
 
         <body>
 
-            <!--
-                The nav class is use to get the general styling of the navbar.
-            Giving it the inverse tag makes the navbar a dark gray color. I am 
-            going to look further into the documentation.
-            -->
+            <!-- Start of the navbar -->
             <nav class= "navbar navbar-inverse">
                 <div class="container-fluid">
 
@@ -41,15 +37,19 @@ Bootstrap has a prebuilt navigation bar built into it.
                         <a class="navbar-brand" href="#" WebsiteName></a>
                     </div>
 
-                    <!-- The navbar-right aligns the items to the right of the page...duh-->
+                    <!-- This is fo all of the items that are right aligned. -->
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">Home</a></li>
-                        <!-- This adds text to the navbar without creating a link.-->
-                        <p class="navbar-text">Tanner</p>
+                        <li class="active"><a href="#">Tanner Bebb</a></li>
+                    </ul>
+
+                    <!-- This is for all the items that will be on the left side of the page-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Left align</a></li>
                     </ul>
                     
                 </div>
             </nav>
+            <!-- End of the navbar-->
 
             <!--
                 This is just a div class that will display on the main webpage. So containers
