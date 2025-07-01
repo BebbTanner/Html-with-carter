@@ -1,0 +1,65 @@
+<!--
+NOTES
+
+    I am going to start by reworking the nav bar. I know that Carter has and idea 
+for what he wants to do with the navbar. I am just going to start by fine tuning it and 
+being absolutely sure that it functions as intended. Carter will prolly keep working on
+his site as he chooses by playing around with the features that he wants.
+
+    I think that it might be beneficial to run a web framework now rather than later.
+Bootstrap has a prebuilt navigation bar built into it. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+    <title>Bootstrap Example</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+
+        <body>
+
+            <!--
+                The nav class is use to get the general styling of the navbar.
+            Giving it the inverse tag makes the navbar a dark gray color. I am 
+            going to look further into the documentation.
+            -->
+            <nav class= "navbar navbar-inverse">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#" WebsiteName></a>
+                    </div>
+
+                    <ul class="nav navbar-nav">
+                        <li class= "active"><a href="#">Home</a></li>
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                    
+                </div>
+            </nav>
+
+            <!--
+                This is just a div class that will display on the main webpage. So containers
+            are a responsive elements. They change there max width at each breakpoint.
+            -->
+            <div class="container">
+                <h3>Basic Navbar Example</h3>
+                <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+            </div>
+
+        </body>
+
+</html>
