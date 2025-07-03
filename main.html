@@ -7,7 +7,7 @@ being absolutely sure that it functions as intended. Carter will prolly keep wor
 his site as he chooses by playing around with the features that he wants.
 
     I think that it might be beneficial to run a web framework now rather than later.
-Bootstrap has a prebuilt navigation bar built into it. 
+Bootstrap has a prebuilt navigation bar built into it.
 -->
 
 <!DOCTYPE html>
@@ -21,6 +21,7 @@ Bootstrap has a prebuilt navigation bar built into it.
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -29,46 +30,26 @@ Bootstrap has a prebuilt navigation bar built into it.
 
         <body>
 
-            <!-- Start of the navbar -->
             <!--
-                If you add another nav class it will create a second navbar. Anytime you 
-            want to edit the navbar it must be changed in the nav element. Dummy
+                The nav class is use to get the general styling of the navbar.
+            Giving it the inverse tag makes the navbar a dark gray color. I am 
+            going to look further into the documentation.
             -->
             <nav class= "navbar navbar-inverse">
                 <div class="container-fluid">
-
-                    <!--
-                        I need to figure out what this div class does.
-                    -->                    
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#" WebsiteName></a>
                     </div>
 
-                    <!-- This is fo all of the items that are right aligned. -->
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">Tanner Bebb</a></li>
-                    </ul>
-
-                    <!-- This is for all the items that will be on the left side of the page-->
                     <ul class="nav navbar-nav">
-                        <!-- 
-                            So with my href it currently is using the # as a placeholder.
-                        This will eventually need to be replaced with the links to the proper
-                        html page.
-                        -->
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Some fucking third thing</a></li>
+                        <li class= "active"><a href="#">Home</a></li>
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
                     </ul>
-                    
                 </div>
             </nav>
-            <!-- End of the navbar-->
 
-            <!--
-                This is just a div class that will display on the main webpage. So containers
-            are a responsive elements. They change there max width at each breakpoint.
-            -->
             <div class="container">
                 <h3>Basic Navbar Example</h3>
                 <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
